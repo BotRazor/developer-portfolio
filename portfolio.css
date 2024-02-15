@@ -111,4 +111,21 @@ main {
 }
 .about-info {
   text-align: center;
+  margin: 0 0;
+}
+.info-title {
+  color: rgb(117, 117, 117);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.info-description {
+  color: rgb(71, 71, 71);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0;
+}
+#what-i-do {
+  padding: 30px 115px;
 }
