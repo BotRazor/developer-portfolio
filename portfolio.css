@@ -81,11 +81,15 @@ nav a {
   color: rgba(24, 24, 24, 0.15);
   justify-content: left;
 } */
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+}
 .about {
   padding: 130px;
   border-radius: 10px;
-  background: white;
-  margin: 130px 0px;
+  background: rgb(255, 248, 243);
+  margin: 130px 0;
 }
 .section-title {
   color: black;
@@ -100,4 +104,11 @@ nav a {
   font-size: 18px;
   font-style: normal;
   font-weight: 400px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
 }
